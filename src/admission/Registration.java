@@ -10,7 +10,7 @@ public class Registration {
     public Registration() {
         // Input
         Scanner sc = new Scanner(System.in);
-        System.out.println("<--------------Enter Student's Information-------------->");
+        System.out.println("\n<--------------Enter Student's Information-------------->");
         System.out.print("Student Name: ");
         name = sc.nextLine();
         System.out.print("Phone Number: ");
@@ -63,7 +63,7 @@ public class Registration {
     }
 
     public void info() {
-        System.out.println("<--------------Student's Information-------------->");
+        System.out.println("\n<--------------Student's Information-------------->");
         System.out.println("Name: " + name);
         System.out.println("Student ID: " + id);
         System.out.println("Department: " + dept);
